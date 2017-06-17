@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>
+		The first and follow sets.
+	</title>
+	</head>
+	<style type="text/css">
+	h1
+	{
+		color: brown;
+		text-align: center;
+	}
+	body
+	{
+		background: cyan;
+
+	}
+
+	</style>
+<body>
+	<script type="text/javascript" src="LLparser.js"></script>
+	<h1>Hey,This Project is Console Dependent :)</h1>
+	<container>
+	<p>
+		<div name="one">The intention of the small scaled Project is to learn how to code LL(1) Parser in Javascript and this majorly includes:<br/><div>
+	1) Finding the <strong>first</strong> of a Terminal variable of a grammer.<br/>
+	2) Finding the <strong>follow</strong> of a Terminal variable of a grammer. 
+	</p>
+	<div name="two">
+	<h3> Grammer's Production Rules are: <br/>1: S -> F<br/>
+  										 2: S -> (S + F)<br/>
+  										 3: F -> a 
+  	</h3>
+  </div>
+  	<h3> Similary we will take a more complex Grammer production next :<br/>
+  		 1: E -> TX<br/>
+  		 2: X -> +TX<br/>
+  		 3: X -> ε<br/>
+   		 4: T -> FY<br/>
+    	 5: Y -> *FY<br/>
+  	  	 6: Y -> ε<br/>
+  		 7: F -> a<br/>
+  		 8: F -> (E)<br/>
+  	</h3>
+
+  	</container>
+</body>
+
+</html>
