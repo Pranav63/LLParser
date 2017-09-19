@@ -1,9 +1,5 @@
 /**
  * LL(1) parser. Building parsing table, part 1: First and Follow sets.
- *
- * by Dmitry Soshnikov <dmitry.soshnikov@gmail.com>
- * MIT Style License
- *
  * An LL(1)-parser is a top-down, fast predictive non-recursive parser,
  * which uses a state-machine parsing table instead of recursive calls
  * to productions as in a recursive descent parser.
