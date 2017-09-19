@@ -4,9 +4,6 @@
  * which uses a state-machine parsing table instead of recursive calls
  * to productions as in a recursive descent parser.
  *
- * We described the work of such a parser in:
- * https://gist.github.com/DmitrySoshnikov/29f7a9425cdab69ea68f
- *
  * There we used manually pre-built parsing table. In this diff we implement
  * an automatic solution for generating a parsing table, and consider the
  * first part of it: building First and Follow sets.
